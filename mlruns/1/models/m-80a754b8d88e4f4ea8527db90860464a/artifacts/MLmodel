@@ -1,0 +1,25 @@
+artifact_path: file:///C:/Users/SESA768583/Downloads/Student_Performance_ML_OPS/Student_Performance_ML_OPS/mlruns/1/models/m-80a754b8d88e4f4ea8527db90860464a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.2
+model_id: m-80a754b8d88e4f4ea8527db90860464a
+model_size_bytes: 23096
+model_uuid: m-80a754b8d88e4f4ea8527db90860464a
+prompts: null
+run_id: a5a26c3cadd84517bb5ec1e4a8f0e45b
+utc_time_created: '2026-11-03 18:05:46.544566'
