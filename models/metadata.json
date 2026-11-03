@@ -1,0 +1,11 @@
+{
+    "model_name": "LinearRegression",
+    "features": [
+        "study_hours",
+        "attendance",
+        "previous_marks",
+        "assignment_score"
+    ],
+    "target": "final_score",
+    "mae": 4.2493702278428795
+}
